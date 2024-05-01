@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Araneta_ClassSchedDisplay">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="28dp"
+        android:layout_marginLeft="20dp"
+        android:text="Schedule Information"/>
+
+
+
+    <TextView
+        android:id="@+id/idTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Placeholder"/>
+
+    <TextView
+        android:id="@+id/idDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Placeholder"/>
+
+    <TextView
+        android:id="@+id/idCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Placeholder"/>
+
+    <TextView
+        android:id="@+id/idDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Placeholder"/>
+
+    <TextView
+        android:id="@+id/idRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Placeholder"/>
+
+
+</LinearLayout>

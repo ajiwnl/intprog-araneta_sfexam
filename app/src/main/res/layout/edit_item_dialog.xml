@@ -1,0 +1,72 @@
+<!-- edit_item_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day:" />
+
+    <EditText
+        android:id="@+id/edit_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter day"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day:" />
+
+    <EditText
+        android:id="@+id/edit_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter day"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day:" />
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter day"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day:" />
+
+    <EditText
+        android:id="@+id/edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter day"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day:" />
+
+    <EditText
+        android:id="@+id/edit_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter day"
+        android:inputType="text" />
+</LinearLayout>
