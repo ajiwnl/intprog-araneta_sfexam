@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class CustomBaseAdapter extends BaseAdapter {
 
     Context context;
@@ -68,9 +70,13 @@ public class CustomBaseAdapter extends BaseAdapter {
         return convertView;
     }
 
-    public void notifyDataChanged() {
+    public void updateData(List<String> dayList, List<String> timeList, List<String> codeList, List<String> descList, List<String> roomList) {
+        this.daylist = dayList.toArray(new String[0]);
+        this.timelist = timeList.toArray(new String[0]);
+        this.codelist = codeList.toArray(new String[0]);
+        this.desclist = descList.toArray(new String[0]);
+        this.roomlist = roomList.toArray(new String[0]);
         notifyDataSetChanged();
     }
-
 
 }

@@ -140,7 +140,7 @@ public class Araneta_ClassSched extends AppCompatActivity {
                 roomList.set(position, editRoom.getText().toString());
 
 
-                customBaseAdapter.notifyDataChanged();
+                customBaseAdapter.updateData(dayList, timeList, codeList, descList, roomList);
 
 
                 Toast.makeText(Araneta_ClassSched.this, "Item edited", Toast.LENGTH_SHORT).show();
@@ -167,7 +167,7 @@ public class Araneta_ClassSched extends AppCompatActivity {
                     roomList.remove(position);
 
                     // Notify adapter of data change
-                    customBaseAdapter.notifyDataChanged();
+                    customBaseAdapter.updateData(dayList, timeList, codeList, descList, roomList);
 
                     Log.d(TAG, "Item at position " + position + " deleted");
                 } else {
